@@ -14,15 +14,19 @@ DeepSafe is a Streamlit-based web application designed to detect whether a video
 
 ```
 DEEPSAFE/
-│
-├── app.py                         # Streamlit web app
-├── model/
-│   └── final_model.pt            # Trained model weights
-├── utils/
-│   ├── dataset.py                # Frame extraction logic
-│   └── transforms.py            # Preprocessing & transforms
-├── requirements.txt              # Python dependencies
-├── README.md                     # Project documentation
+├── README.md
+├── DEEPFAKE_DETECTOR/
+    ├── Model_Train.ipynb
+    ├── predict.py
+    ├── requirements.txt
+    ├── Preprocessing/
+    │   └── video_pre.ipynb
+    ├── Streamlit_app/
+    │   ├── app.py
+    │   ├── model.py
+    │   └── utils.py
+    └── labels/
+        └── Gobal_metadata.csv
 ```
 
 ## 🧠 Model Info
