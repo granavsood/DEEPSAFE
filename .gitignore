@@ -1,0 +1,19 @@
+# Ignore virtual environment
+deepfake-env/
+
+# Ignore large ML model files
+DEEPFAKE_DETECTOR/models/*.pt
+
+# Ignore Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore video and data files
+*.mp4
+*.avi
+*.mov
+
+# Ignore logs and temp files
+*.log
+temp_video.mp4
